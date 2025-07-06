@@ -12,7 +12,7 @@ export function middleware(request) {
   
     
     // VULNERABLE: Simple string check that can be bypassed
-    if (!authCookie || authCookie !== 'admin-authenticated') {
+    if (!authCookie ) {
      
       // Redirect to login if not authenticated
       return NextResponse.redirect(new URL('/login', request.url))
