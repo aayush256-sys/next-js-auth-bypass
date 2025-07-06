@@ -76,9 +76,6 @@ This application demonstrates the **CVE-2025-29927** vulnerability discovered by
 - **With /src directory:** `x-middleware-subrequest: src/middleware`
 - **Next.js 15.x:** `x-middleware-subrequest: middleware:middleware:middleware:middleware:middleware`
 
-### 📖 Exploit Instructions
-- Run `node exploit-cve-2025-29927.js` for detailed instructions
-- Open `exploit-demo.html` in browser for interactive demo
 
 ### 🛡️ Mitigation
 - Update to Next.js 15.2.3+ (14.2.25+ for 14.x)
