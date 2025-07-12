@@ -16,20 +16,6 @@ npm run dev
 
 The application will be available at `http://localhost:3000`
 
-## 📁 Project Structure
-
-```
-├── pages/
-│   ├── _app.js          # App wrapper component
-│   ├── index.js         # Home page with navigation
-│   ├── login.js         # Login page with hardcoded credentials
-│   └── admin.js         # Protected admin dashboard
-├── middleware.js        # Vulnerable authentication middleware
-├── exploit.js           # Exploit demonstration script
-├── package.json         # Dependencies and scripts
-├── next.config.js       # Next.js configuration
-└── README.md           # This file
-```
 
 ## 🛠️ Available Scripts
 
